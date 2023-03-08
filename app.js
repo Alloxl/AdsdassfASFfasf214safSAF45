@@ -5,81 +5,81 @@ const music = new Audio('vande.mp3');
 const songs = [
     {
         id:'1',
-        songName:` On My Way <br>
-        <div class="subtitle">Alan Walker</div>`,
-        poster: "img/1.jpg"
+        songName:` Küllenen aşk <br>
+        <div class="subtitle">Cengiz Kurtoğlu</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083007732312981524/ab67616d0000b273d0ecf0b5afba0062c14a5157.png"
     },
     {
         id:'2',
-        songName:` Alan Walker-Fade <br>
-        <div class="subtitle">Alan Walker</div>`,
-        poster: "img/2.jpg"
+        songName:` Beşiktaşım <br>
+        <div class="subtitle">Eypio</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083007486107328612/ab67616d0000b2736ee27ad87f29721c24c82217.png"
     },
     // all object type 
     {
         id:"3",
-        songName: `Cartoon - On & On <br><div class="subtitle"> Daniel Levi</div>`,
-        poster: "img/3.jpg",
+        songName: `Yanlış <br><div class="subtitle"> Tuğçe Kandemir</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083007267982540881/ab67616d0000b2739d7897c3f94e7dae384aade8.png",
     },
     {
         id:"4",
-        songName: `Warriyo - Mortals <br><div class="subtitle">Mortals</div>`,
-        poster: "img/4.jpg",
+        songName: `Hüznü Hecem <br><div class="subtitle">Yaner Çevik</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083006812598583316/ab67616d0000b27372bb61b524759556b5cba320.png",
     },
     {
         id:"5",
-        songName: `Ertugrul Gazi <br><div class="subtitle">Ertugrul</div>`,
-        poster: "img/5.jpg",
+        songName: `Neyim var ki <br><div class="subtitle">Ceza, Sagopa Kajmer</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083008030792241183/ab67616d0000b2732a07bf1912730d354453a4ca.png",
     },
     {
         id:"6",
-        songName: `Electronic Music <br><div class="subtitle">Electro</div>`,
-        poster: "img/6.jpg",
+        songName: `Hata Bizim <br><div class="subtitle">Heredot Beatz</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083008489187704922/ab67616d0000b273dca72c20872f59c98d4c6b74.png",
     },
     {
         id:"7",
-        songName: `Agar Tum Sath Ho <br><div class="subtitle">Tamashaa</div>`,
-        poster: "img/7.jpg",
+        songName: `10MG <br><div class="subtitle">Motive</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083008808776892526/ab67616d0000b273dc5c2b466114a99eb4bdf13e.png",
     },
     {
         id:"8",
-        songName: `Suna Hai <br><div class="subtitle">Neha Kakker</div>`,
-        poster: "img/8.jpg",
+        songName: `Alev Alıyor Dünyam <br><div class="subtitle">Polemick</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083009197823770685/ab67616d0000b273902857867651f4cf6ab042e0.png",
     },
     {
         id:"9",
-        songName: `Dilber <br><div class="subtitle">Satyameva Jayate</div>`,
-        poster: "img/9.jpg",
+        songName: `Körebe <br><div class="subtitle">Yiğit Aktaş</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083010682938720286/ab67616d0000b2732dc1543890a79fb1c7c23531.png",
     },
     {
         id:"10",
-        songName: `Duniya <br><div class="subtitle">Luka Chuppi</div>`,
-        poster: "img/10.jpg",
+        songName: `Nalan <br><div class="subtitle">Emir Can İğrek</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083011032567517277/ab67616d0000b273efecddd412a17ef986bdd351.png",
     },
     {
         id:"11",
-        songName: `Lagdi Lahore Di <br><div class="subtitle">Street Dancer 3D</div>`,
-        poster: "img/11.jpg",
+        songName: `Bağırın <br><div class="subtitle">Hidra</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083011373870616596/ab67616d0000b2734fff4c6c0428d9b3b5dc9084.png",
     },
     {
         id:"12",
-        songName: `Putt Jatt Da <br><div class="subtitle">Putt Jatt Da</div>`,
-        poster: "img/12.jpg",
+        songName: `Labirent <br><div class="subtitle">Şehinşah, Hidra</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083011817481187378/ab67616d0000b273782329fcc4147cb8d65d5433.png",
     },
     {
         id:"13",
-        songName: `Baarishein <br><div class="subtitle">Atif Aslam</div>`,
-        poster: "img/13.jpg",
+        songName: `Üzülme/elbetbirgün <br><div class="subtitle">Agoni</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083012276799418409/ab67616d0000b27340e41a7d7e469fbab1ce836a.png",
     },
     {
         id:"14",
-        songName: `Vaaste <br><div class="subtitle">Dhvani Bhanushali</div>`,
-        poster: "img/14.jpg",
+        songName: `Yarım Kalan Sigara <br><div class="subtitle">No.1, Melek Mosso</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083012688675881000/ab67616d0000b273cd40ab5dbc95d9e8b6b9dfa3.png",
     },
     {
         id:"15",
-        songName: `Lut Gaye <br><div class="subtitle">Jubin Nautiyal</div>`,
-        poster: "img/15.jpg",
+        songName: `Huzurum Kalmadı <br><div class="subtitle">Ferdi Tayfur</div>`,
+        poster: "https://cdn.discordapp.com/attachments/1074667476324991088/1083012938236956762/ab67616d0000b27348a29974de88172f4e6ad160.png",
     },
 ]
 
